@@ -429,8 +429,8 @@ async def startup_event():
 if __name__ == "__main__":
     print("""
     ╔════════════════════════════════════════╗
-    ║   SentinAI Backend Server Starting    ║
-    ║   FastAPI + WebSocket + SQLite        ║
+    ║   SentinAI Backend Server Starting     ║
+    ║   FastAPI + WebSocket + SQLite         ║
     ╚════════════════════════════════════════╝
     """)
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
